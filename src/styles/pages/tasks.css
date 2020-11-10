@@ -1,0 +1,61 @@
+* {
+    background: #000;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.new-task {
+    height: 40px;
+    background: transparent;
+    border-color: #fff;
+}
+
+.task-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table {
+    color: #fff;
+    border: none;
+}
+
+.table th {
+    border: none;
+    background: linear-gradient(#000, #333) !important;
+}
+
+.table td {
+    background: #fff !important;
+    color: #000;
+}
+
+.badge {
+    line-height: 1.5;
+}
+
+.dropdown {
+    border: none;
+}
+
+#dropdown-basic-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 12px;
+}
+
+.dropdown-item {
+    font-size: 12px;
+}
+
+.dropdown-item:hover {
+    background: #cf2939;
+    color: #fff;
+}

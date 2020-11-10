@@ -1,0 +1,50 @@
+* {
+    font-family: "Syne Mono";
+    background: transparent;
+}
+
+.nav {
+    background: linear-gradient(#000, #333) !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: transparent !important;
+}
+
+.navbar-brand .nav-brand {
+    font-size: 22px;
+    text-decoration: none;
+    font-family: "Press Start 2P";
+    transition: All .2s ease-in-out;
+}
+
+.navbar-brand .nav-brand:hover {
+    color: #333 !important;
+    transition: All .5s ease-in-out;
+}
+
+.basic-navbar-nav {
+    position: relative;
+}
+
+.mr-auto {
+    position: absolute;
+    background-color: transparent;
+    right: 0;
+}
+
+.nav-item {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none;
+    transition: All .5s ease-in-out;
+}
+
+.nav-item:hover {
+    color: red !important;
+    transition: All .5s ease-in-out;
+}

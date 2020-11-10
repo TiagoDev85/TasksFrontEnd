@@ -1,0 +1,27 @@
+.card-header {
+    text-transform: uppercase;
+    background: linear-gradient(#000, #333) !important;
+    color: #fff;
+}
+
+.card-body {
+    position: relative;
+}
+
+.card-body .badge-status {
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+
+.back-task {
+    height: 40px;
+    background: transparent;
+    border-color: #fff;
+}
+
+.info {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
